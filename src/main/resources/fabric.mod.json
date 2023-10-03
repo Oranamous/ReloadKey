@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "reloadkey",
+  "version": "${version}",
+  "name": "ReloadKey",
+  "description": "",
+  "authors": [
+    "Oranamous"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/reloadkey/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.voxelden.reloadkey.ReloadKey"
+    ],
+    "main": []
+  },
+  "mixins": [
+    "reloadkey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
